@@ -1,5 +1,4 @@
 import axios from "axios";
-import { API_KEY } from "./API_KEY";
 
 /**
   idea!
@@ -14,7 +13,7 @@ export const API = async (endpoint: string) => {
     method: "get",
     url: `https://v1.basketball.api-sports.io/${_endpoint}`,
     headers: {
-      "x-rapidapi-key": API_KEY,
+      "x-rapidapi-key": "1d279fb1dd3ff6a82c241402e0034b49",
       "x-rapidapi-host": "v1.basketball.api-sports.io",
     },
   };
