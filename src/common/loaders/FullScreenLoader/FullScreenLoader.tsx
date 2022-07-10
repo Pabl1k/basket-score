@@ -1,7 +1,7 @@
 import React from "react";
-import "./LoaderBall.scss";
+import "./FullScreenLoader.scss";
 
-const LoaderBall = (): JSX.Element => {
+const FullScreenLoader = (): JSX.Element => {
   return (
     <div className="loader-ball">
       <div className="ball-wrapper">
@@ -12,4 +12,4 @@ const LoaderBall = (): JSX.Element => {
   );
 };
 
-export default LoaderBall;
+export default FullScreenLoader;

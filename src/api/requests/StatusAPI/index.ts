@@ -1,7 +1,7 @@
 import { API } from "../../config";
-import { StatusType } from "./types";
+import { IStatus } from "./types";
 
-const StatusAPI = (): StatusType => {
+const StatusAPI = (): IStatus => {
   return {
     fetchStatus: () => {
       return API("status");

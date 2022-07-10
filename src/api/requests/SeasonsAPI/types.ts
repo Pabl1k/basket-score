@@ -1,5 +1,5 @@
-import { APICallResponse } from "../../types/types";
+import { APICallResponse } from "../../types";
 
-export type SeasonsType = {
+export type ISeasons = {
   fetchSeasons: () => APICallResponse<string | number[]>;
-}
+};

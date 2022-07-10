@@ -42,7 +42,7 @@
       }
     ],
     "@typescript-eslint/no-non-null-assertion": "off",
-    "max-len": ["warn", { "code": 180 }],
+    "max-len": ["warn", { "code": 120 }],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "import/prefer-default-export": "off",
@@ -54,6 +54,9 @@
     "no-underscore-dangle": "off",
     "no-param-reassign": "off",
     "no-alert": "off",
+    "prefer-const": "off",
+    "no-return-assign": "off",
+    "implicit-arrow-linebreak": "off",
     "react/function-component-definition": [
       2,
       {

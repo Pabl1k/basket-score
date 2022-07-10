@@ -1,6 +1,6 @@
-import { APICallResponse } from "../../types/types";
+import { APICallResponse } from "../../types";
 
-export type ResponseType = {
+export interface IStatusResponse {
   account: {
     firstname: string;
     lastname: string;
@@ -15,8 +15,8 @@ export type ResponseType = {
     current: number;
     limit_day: number;
   };
-};
+}
 
-export type StatusType = {
-  fetchStatus: () => APICallResponse<ResponseType>;
-};
+export interface IStatus {
+  fetchStatus: () => APICallResponse<IStatusResponse>;
+}

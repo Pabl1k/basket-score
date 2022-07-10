@@ -1,0 +1,17 @@
+.header-item {
+  width: clamp(100px, 75%, 200px);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &.selected {
+    border-bottom: 3px solid red;
+  }
+}

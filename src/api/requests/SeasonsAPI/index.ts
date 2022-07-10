@@ -1,7 +1,7 @@
 import { API } from "../../config";
-import { SeasonsType } from "./types";
+import { ISeasons } from "./types";
 
-const SeasonsAPI = (): SeasonsType => {
+const SeasonsAPI = (): ISeasons => {
   return {
     fetchSeasons: () => {
       return API("seasons");
